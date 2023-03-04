@@ -10,11 +10,18 @@
 |mkdir| Create a directory. |
 |rm| Remove file.|
 |mv| Move file. |
+
 #
 ### Now I share some useful alias commands:
-|  Alias  |  Description  |
-|  ---  |  --- |
-|  alias findd="ls ~/ \| grep $1" | **We can use this alias to filter folders in our directory.**  |
-|  alias updateos="sudo apt update && sudo apt dist-upgrade -y" | **Executing this command we can update the OS.**  |
-|  alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'	| **Create a directory and access it directly.**  |
-|  alias tv="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py \| python3 -" | **Perform a speed test of the Internet connection.**  |
+```bash
+alias findd="ls ~/ | grep $1" 
+```
+**We can use this alias to filter folders in our directory.**
+```bash
+alias updateos="sudo apt update && sudo apt dist-upgrade -y"
+```
+**Executing this command we can update the OS.**
+```bash
+alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'
+``` 
+**Create a directory and access it directly.**
