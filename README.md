@@ -25,5 +25,3 @@ alias updateos="sudo apt update && sudo apt dist-upgrade -y"
 alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'
 ``` 
 **Create a directory and access it directly.**
-
-[Github personal profile](blank:#https://www.github.com/MartinRodrigoVargas/)
